@@ -1,7 +1,7 @@
 import sys
 import serial
 import re
-port = serial.Serial('/dev/ttyUSB0', 115200)
+port = serial.Serial('/dev/ttyUSB0', 38400)
 
 MORSE_CODE_DICT = { '01':'A', '1000':'B', 
                     '1010':'C', '100':'D', '0':'E', 
